@@ -1,24 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EasyFinance$</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="shortcut icon" href="image/favicon.ico" />
-    <link rel="stylesheet" href="./css/style.css">
+   
+    <link rel="stylesheet" href="./css/style.css" />
     <script defer type="javascript" src="./js/script.js"></script>
-</head>
-<body>
-    <header class=""></header>
-    <main>
-        <section class=""></section>
-        <section class=""></section>
-        <section class=""></section>
-        <section class=""></section>
+  </head>
+  <body>
+    <header>
+      <h1 id="logo">easy.finance<span>$</span></h1>
+    </header>
+    <main class="container">
+      <section id="balance">
+        <h2>Balanço</h2>
+        <div class="card entrada">
+          <h3>Entradas</h3>
+          <p>R$ 3.000,00</p>
+        </div>
+        <div class="card saida">
+          <h3>Saídas</h2>
+          <p>R$ 1.430,00</p>
+        </div>
+        <div class="card total">
+          <h3>Total</h3>
+          <p>R$ 1.570,00</p>
+        </div>
+      </section>
+      <section id="transation">
+        <h2>Transações</h2>
+        <table id="data-table">
+          <thead>
+            <tr>
+              <th>Descrição</th>
+              <th>Valor</th>
+              <th>Data</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="description">Web Sites</td>
+              <td class="income">R$ 3.000,00</td>
+              <td class="date">01/10/2021</td>
+            </tr>
+            <tr>
+              <td class="description">Condominio</td>
+              <td class="expense"> - R$ 800,00</td>
+              <td class="date">05/10/2021</td>
+            </tr>
+            <tr>
+              <td class="description">Internet</td>
+              <td class="expense"> - R$ 180,00</td>
+              <td class="date">05/10/2021</td>
+            </tr>
+            <tr>
+              <td class="description">Telefone</td>
+              <td class="expense"> - R$ 250,00</td>
+              <td class="date">05/10/2021</td>
+            </tr>
+            <tr>
+              <td class="description">Energia</td>
+              <td class="expense"> - R$ 200,00</td>
+              <td class="date">07/10/2021</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
-    <footer class=""></footer>    
-</body>
+    <footer class="footer"><p>easy.finance<span>$</span></p></footer>
+    
+  </body>
 </html>
