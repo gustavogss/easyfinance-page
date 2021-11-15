@@ -1,5 +1,5 @@
 # Projeto Finalizado :rocket:
-- Página do aplicativo easyfinance
+- Demonstrativo das transações do aplicativo easyfinance
 
 ## Tecnologia e Ferramentas utilizadas:
 - VsCode
