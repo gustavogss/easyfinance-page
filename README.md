@@ -1,4 +1,4 @@
-# Projeto :rocket:
+# Projeto Finalizado :rocket:
 - Página do aplicativo easyfinance
 
 ## Tecnologia e Ferramentas utilizadas:
