@@ -7,5 +7,5 @@
 - CSS3
 - JavaScript
 
-## Deploy 🏃
+## Deploy 🔌
 https://gustavogss.github.io/easyfinance-page/
