@@ -7,5 +7,5 @@
 - CSS3
 - JavaScript
 
-## Deploy 🔌
-https://gustavogss.github.io/easyfinance-page/
+## Como utilizar :computer:
+[Clique aqui](https://gustavogss.github.io/easyfinance-page/)
